@@ -75,8 +75,6 @@ sp = spotipy.Spotify(
     )
 )
 
-authorization_code = env_auth_code
-
 # Get current user's information
 user_info = sp.me()
 user_id = user_info["id"]
